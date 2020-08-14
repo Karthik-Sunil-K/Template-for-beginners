@@ -1,0 +1,126 @@
+.navclr{
+    background-color: black;
+}
+.containerskills{
+    padding-bottom: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+/* Animation */
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+.myintro{
+    font-family: "Poppins", Arial, sans-serif;
+}
+.subheading{
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 3px;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes bootstrap{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes js{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+.fa{
+    padding-top: 15px;   
+    padding-bottom: 25px;
+   display: inline-flex;
+   text-decoration: none;
+   color: white;
+   border: 1px solid white;
+   padding: 15px 15px;
+   margin: 0 15px;
+   font-size: 25pt;
+   justify-content: center;
+   width: 40px;
+   height: 40px;
+   align-items: center;
+   border-radius: 15px;
+   transition: 0.2s;
+   }
+   .fa:hover{
+       background-color: white;
+       border: 1px solid black;
+       color: black;
+   }
+   .btn{
+    background-color: rgb(19, 112, 233);
+    border: 1px solid rgb(23, 8, 235);
+    color: rgb(250, 245, 245);
+   }
+   
+   
+   .social-menu{
+       background-color: black;
+    text-align: center;
+    color: white;
+    height: 100px;
+    font-style: italic;
+    text-shadow: blue;
+}
+html{
+    scroll-behavior: smooth;
+}
