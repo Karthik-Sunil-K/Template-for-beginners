@@ -1,13 +1,10 @@
 .navclr{
     background-color: black;
 }
+
 .containerskills{
-    padding-bottom: 70px;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin: 20pxpx;
 }
-
-
 /* Animation */
 
 @keyframes fadeInUp {
@@ -123,4 +120,7 @@
 }
 html{
     scroll-behavior: smooth;
+}
+.skills{
+    padding: 30px;
 }
