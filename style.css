@@ -1,5 +1,5 @@
 .navclr{
-    background-color: black;
+    background-color: #167593;
 }
 
 .containerskills{
@@ -104,14 +104,14 @@
        color: black;
    }
    .btn{
-    background-color: rgb(19, 112, 233);
-    border: 1px solid rgb(23, 8, 235);
+    background-color: #16aaba;
+    border: 1px solid white;
     color: rgb(250, 245, 245);
    }
    
    
    .social-menu{
-       background-color: black;
+       background-color: #167593;
     text-align: center;
     color: white;
     height: 100px;
