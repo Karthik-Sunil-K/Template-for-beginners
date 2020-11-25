@@ -1,3 +1,5 @@
-###Responsive website template for beginners/Students
+# Responsive website template 
+for beginners/Students
 Simple,responsive website template using html css js and bootstrap designed from scratch
 its easly understandable!!!!
+http://karthiksunil.me/Template-for-students/
